@@ -1,0 +1,33 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Martin Kotevski</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Martin</foaf:givenname>
+<foaf:family_name>Kotevski</foaf:family_name>
+<foaf:nick>Kotac</foaf:nick>
+<foaf:mbox_sha1sum>c7d72d40f90d16048c86efd4f824817055d9f1d5</foaf:mbox_sha1sum>
+<foaf:phone rdf:resource="tel:+38971-400-166"/>
+<foaf:schoolHomepage rdf:resource="https://finki.ukim.mk/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Nikola</foaf:name>
+<foaf:mbox_sha1sum>36d37c0a2828c4e2ffc8084e2c00b5d8fbeb4bbe</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Mungo</foaf:name>
+<foaf:mbox_sha1sum>19658d0071b9427e1f3be101c50497baffa088b4</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Filip</foaf:name>
+<foaf:mbox_sha1sum>dc4af7643fdb113ea21a4d77b52cabe4e0802910</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
